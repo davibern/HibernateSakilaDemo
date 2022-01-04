@@ -31,7 +31,6 @@ public class Consulta1 {
             
             for (Actor actor: actores) {
                 System.out.format("%5s %-15s %-15s %-15s\n", actor.getActorId(), actor.getFirstName(), actor.getLastName(), actor.getLastUpdate());
-                System.out.println();
                 size++;
             }
             
