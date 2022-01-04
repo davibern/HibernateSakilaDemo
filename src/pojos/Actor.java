@@ -1,7 +1,6 @@
 package pojos;
 // Generated 04-ene-2022 13:03:24 by Hibernate Tools 4.3.1
 
-
 import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
@@ -11,7 +10,6 @@ import java.util.Set;
  */
 public class Actor  implements java.io.Serializable {
 
-
      private Short actorId;
      private String firstName;
      private String lastName;
@@ -20,7 +18,6 @@ public class Actor  implements java.io.Serializable {
 
     public Actor() {
     }
-
 	
     public Actor(String firstName, String lastName, Date lastUpdate) {
         this.firstName = firstName;
@@ -70,9 +67,4 @@ public class Actor  implements java.io.Serializable {
         this.filmActors = filmActors;
     }
 
-
-
-
 }
-
-

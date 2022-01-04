@@ -1,7 +1,6 @@
 package pojos;
 // Generated 04-ene-2022 13:03:24 by Hibernate Tools 4.3.1
 
-
 import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
@@ -20,7 +19,6 @@ public class City  implements java.io.Serializable {
 
     public City() {
     }
-
 	
     public City(Country country, String city, Date lastUpdate) {
         this.country = country;
@@ -69,10 +67,4 @@ public class City  implements java.io.Serializable {
     public void setAddresses(Set addresses) {
         this.addresses = addresses;
     }
-
-
-
-
 }
-
-

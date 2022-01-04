@@ -1,7 +1,6 @@
 package pojos;
 // Generated 04-ene-2022 13:03:24 by Hibernate Tools 4.3.1
 
-
 import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
@@ -19,7 +18,6 @@ public class Category  implements java.io.Serializable {
 
     public Category() {
     }
-
 	
     public Category(String name, Date lastUpdate) {
         this.name = name;
@@ -60,9 +58,4 @@ public class Category  implements java.io.Serializable {
         this.filmCategories = filmCategories;
     }
 
-
-
-
 }
-
-
